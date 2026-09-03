@@ -1,0 +1,19 @@
+export enum Permission {
+    //Agents permission
+    CREATE_AGENT = "CREATE_AGENT",
+    READ_AGENT = "READ_AGENT",
+    UPDATE_AGENT = "UPDATE_AGENT",
+    DELETE_AGENT = "DELETE_AGENT",
+
+    //Team permission
+    CREATE_TEAM = "CREATE_TEAM",
+    READ_TEAM = "READ_TEAM",
+    UPDATE_TEAM = "UPDATE_TEAM",
+    DELETE_TEAM = "DELETE_TEAM",
+
+    //Battle rusults
+    CREATE_BATTLE = "CREATE_BATTLE",
+    READ_BATTLE = "READ_BATTLE",
+    UPDATE_BATTLE = "UPDATE_BATTLE",
+    DELETE_BATTLE = "DELETE_BATTLE",
+}
